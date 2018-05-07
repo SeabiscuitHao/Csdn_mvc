@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎注册</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="./js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+	<div id="regi">
+		<div class="login-box clearfix">
+			<p>账号注册</p>
+			<div class="input-text">
+				<input v-model="phone" type="text" placeholder="请输入电话号">
+				<input v-model="username" type="text" placeholder="用户名">
+				<input v-model="userPassword" type="password" placeholder="密码">
+			</div>
+			<a class="regi-btn" @click="clickRegi()">注 册</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/regi.js"></script>
+</body>
+</html>

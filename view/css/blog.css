@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	padding: 0 1.5rem;
+}
+.header {
+	padding: 1rem 0;
+	font-size: 16px;
+	height: 3rem;
+	line-height: 3rem;
+}
+.personal {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 1rem 3.5rem;
+	position: relative;
+}
+.header img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	position: absolute; 
+	left: 0;
+}
+.follow {
+	background: #c92027;
+	width: 4rem;
+	height: 2.2rem;
+	border-radius: 4px;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	border: none;
+	font-size: 17px;
+	position: absolute;
+	right: .2rem;
+	top: .5rem;
+}
+.title {
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #ddd;
+}
+.title p {
+	font-size: 22px;
+	font-weight: bold;
+}
+.title span {
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+	margin: 1rem .7rem 0 0;
+}
+.info-content {
+	padding: 1.5rem 0;
+	font-size: 18px;
+	color: #4f4f4f;
+	/*font-weight: 300;*/
+}
+.collect .colbtn {
+	width: 5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	background: #fff;
+	color: red;
+}

@@ -1,0 +1,15 @@
+.navbar {
+	background: #cf4646;
+	border-color: transparent;
+	border-width: 0 0 1px;
+	margin-bottom: 20px;
+}
+nav .container .navbar-header a, nav .container .navbar-collapse a {
+	color: #e8e8e8;
+}
+nav .container .navbar-header a:hover, nav .container .navbar-collapse a:hover {
+	color: #fff;
+}
+.nav {
+	float: right;
+}

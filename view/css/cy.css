@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	font-size: 62.5%;
+	font-family: PingFangSC-Light;
+	background: #f1f1f1;
+}
+a {
+	text-decoration: none;
+}
+.history, .similar {
+	margin: 2rem auto 0;
+	background: #e7e7e7;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #666;
+	line-height: 2.265rem;
+	text-align: center;
+	padding: 0.7rem 2.6rem 0.7rem 1rem;
+}
+.history {
+	width: 19.6rem;
+	height: 4.6rem;
+}
+.history-btn, .similar-btn {
+	color: #1b91e0;
+}
+.time {
+	font-family: Helvetica-Light;
+	color: #999;
+	font-size: 14px;
+	margin: 2rem 0 1rem;
+	letter-spacing: -0.34px;
+	text-align: center;
+}
+.user {
+	padding: 0 4.4rem 1rem 6.5rem;
+	position: relative;
+}
+.user img {
+	position: absolute;
+	top: 0;
+	left: 1.5rem;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+}
+.user p, .doctor p {
+	padding: 1.2rem;
+	font-size: 15px;
+	line-height: 2.2rem;
+	border-radius: 1rem;
+	text-align: justify;
+	letter-spacing: 0;
+}
+.user p {
+	background: #fff;
+	color: #464646;
+}
+.doctor {
+	padding: 1rem 1.5rem 1rem 8.9rem;
+}
+.doctor p {
+	background: #c7e4fb;
+	color: #175b83;
+}
+.similar {
+	width: 29rem;
+}
+.title {
+	color: #323232;
+	font-size: 15px;
+}
+.container {
+	padding: 1.5rem 1.5rem 0;
+	background: #fff;
+	margin-bottom: 1rem;
+}
+.statistics {
+	margin: 2.7rem 0 1.7rem;
+}
+.statistics p {
+	color: #999;
+	font-size: 15px;
+	position: relative;
+	padding: 0 0 0 2rem;
+	margin: 0.2rem 0;
+}
+.statistics p:before {
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	background: #1b91e0;
+	top: 0.7rem;
+	left: 0.7rem;
+	content: "";
+	border-radius: 50%;
+}
+.answer-title {
+	color: #666;
+	font-size: 14px;
+	margin: 
+}
+.tips-list {
+	margin: 1rem 0;
+	padding: 1rem;
+	border-bottom: 1px solid #E7E7E7; 
+}
+.tip {
+	widows: 22%;
+	border-right: 1px solid #e7e7e7;
+	padding: 0 1.5rem;
+	font-size: 12px;
+	color: #999;
+	float: left;
+	text-align: center;
+}
+.tip-right {
+	border-right: 1px solid transparent;
+}
+.tip span {
+	display: block;
+	color: #1b91e0;
+	font-size: 18px;
+}
+.clearfix::after {
+	clear: both;
+	content: "";
+	height: 0;
+	display: block;
+}
+.eg-title {
+	padding: 0 5.5rem; 
+	border: 1px solid #1b91e0;
+	display: block;
+	float: left;
+	font-size: 15px;
+	background: #fff;
+	color: #1b91e0;
+}
+.eg-title-left {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.eg-title-right {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.eg .current {
+	background: #1b91e0;
+	color: #fff;
+}
+.question, .analysis {
+	padding: 1.6rem 0;
+}
+.ana-doctor {
+	padding: 1.6rem 0 0;
+}
+.question-title {
+	font-size: 17px;
+	color: #323232;
+}
+.question-title a {
+	color: #1b91e0;
+}
+.question-content {
+	color: #999;
+	font-size: 15px;
+	margin: 0.35rem 0;
+}
+.footer {
+	font-size: 14px;
+	color: #999;
+	height: 6.5rem;
+	line-height: 6.5rem;
+}
+.help, .no-help {
+	margin: 0 1.5rem;
+	color: #666; 
+	padding-left: 2.5rem;
+	position: relative;
+}
+.help {
+	margin-left: 2.5rem;
+}
+.footer img {
+	width: 1.88rem;
+	height: 1.88rem;
+	position: absolute;
+	top: 0;
+	left: 0.2rem;
+}
+.analysis>p {
+	font-size: 17px;
+	line-height: 1.3;
+	margin: 0.3rem 0;
+}
+.analysis .ana-header {
+	color: #999;
+}
+.hide {
+	display: none;
+}
+.point {
+	background: #edf6ff;
+	border: 1px solid #1b91e0;
+	border-radius: 2px;
+	font-size: 11px;
+	color: #1b91e0;
+	padding: 0.2rem 0.3rem;
+	margin-right: 0.4rem;
+}
+.analysis .time {
+	text-align: right;
+	color: #999;
+	font-size: 10px;
+}
+.ana-doctor {
+	padding-left: 4.6rem;
+	position: relative;
+	margin: 2rem 0 0;
+}
+.ana-doctor img {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 1.6rem;
+	left: 0;
+}
+.ana-doctor .doc-name {
+	font-size: 12px;
+	color: #323232;
+}
+.ana-doctor .department {
+	color: #999;
+	margin-left: 0.9rem;
+}
+.ana-doctor .hospital {
+	color: #999;
+	font-size: 12px;
+	margin-top: 0.5rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSDN</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="<?php echo STATIC_URL; ?>/css/swiper-3.4.2.min.css">
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/jquery-3.2.0.min.js"></script>
+	<script src="<?php echo STATIC_URL; ?>/js/swiper-3.4.2.jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo STATIC_URL; ?>/css/csdn.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/gulp.css"> -->
+</head>
+<body>
+	<div id="csdn">
+		<div class="header">
+			<img src="<?php echo STATIC_URL; ?>/images/csdn.png">
+			<a class="login" href="index.php?c=user&a=login">登录</a>
+		</div>
+		<ul class="navbar">
+			<!-- <li v-for="item in navList"><a href="#">{{ item.name }}</a></li> -->
+			<li><a href="#">推荐</a></li>
+			<li><a href="#">最新文章</a></li>
+			<li><a href="#">最新文章</a></li>
+			<li><a href="#">最新文章</a></li>
+		</ul>
+		<div class="ad">
+			<div class="swiper-container">
+			  <div class="swiper-wrapper clearfix">
+			    <!-- <a href="#" class="swiper-slide" v-for="item in bannerList"><img :src="item.img"></a> -->
+			    <a href="#" class="swiper-slide"><img src="<?php echo STATIC_URL; ?>/images/tip1.jpg"></a>
+			    <a href="#" class="swiper-slide"><img src="<?php echo STATIC_URL; ?>/images/tip3.jpg"></a>
+			  </div>
+			</div>
+			<!-- <div class="swiper-pagination"></div> -->
+		</div>
+		<div class="blog-list">
+			<div class="blog" >
+				<a class="title" href="#">最强大脑送书活动答案</a>
+				<a href="#" class="type">程序人生</a>
+				<span class="author">玻璃猫</span>
+				<span class="number">1534阅读</span>
+				<span class="time">03月15日</span>
+				<button class="delete">×</button>
+			</div>
+			<div class="blog" >
+				<a class="title" href="#">最强大脑送书活动答案</a>
+				<a href="#" class="type">程序人生</a>
+				<span class="author">玻璃猫</span>
+				<span class="number">1534阅读</span>
+				<span class="time">03月15日</span>
+				<button class="delete">×</button>
+			</div>
+			<div class="blog" >
+				<a class="title" href="#">最强大脑送书活动答案</a>
+				<a href="#" class="type">程序人生</a>
+				<span class="author">玻璃猫</span>
+				<span class="number">1534阅读</span>
+				<span class="time">03月15日</span>
+				<button class="delete">×</button>
+			</div>
+			<!-- <div class="blog" v-for="item in infoList">
+				<a class="title" :href="'./csdn_blog.html?id='+item.id">{{ item.title }}</a>
+				<a href="#" class="type">{{ item.category_name }}</a>
+				<span class="author">{{ item.username }}</span>
+				<span class="number">{{ item.read_num }}阅读</span>
+				<span class="time">{{ item.createtime }}</span>
+				<button class="delete">×</button>
+			</div> -->
+		</div>
+	</div>
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/csdn.js"></script>
+</body>
+</html>

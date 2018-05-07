@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSDN</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/swiper-3.4.2.min.css">
+	<script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+	<script src="./js/swiper-3.4.2.jquery.min.js"></script>
+	<script type="text/javascript" src="./js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/csdn.css">
+</head>
+<body>
+	<div id="csdn">
+		<div class="header">
+			<img src="./images/csdn.png">
+			<a class="login" href="./login.html" ref="login">登录</a>
+			<a class="user" href="./csdn_user.html" ref="user"><img src="./images/zoro.jpg"></a>
+			<a class="publish" href="./publish.html" ref="publish">发布文章</a>
+		</div>
+		<ul class="navbar">
+			<li v-for="item in navList"><a href="#" @click="infoType(item)">{{ item.classify_name }}</a></li>
+		</ul>
+		<div class="ad">
+			<div class="swiper-container">
+			  <div class="swiper-wrapper clearfix">
+			    <a href="#" class="swiper-slide" v-for="item in bannerList"><img :src="item.img"></a>
+			  </div>
+			</div>
+		</div>
+		<div class="blog-list">
+			<div class="blog" v-for="item in infoList">
+				<a class="title" :href="'./csdn_blog.html?id='+item.id" target="_block">{{ item.title }}</a>
+				<a href="#" class="type">{{ item.classify_name }}</a>
+				<span class="author">{{ item.author_name }}</span>
+				<span class="number">{{ item.read_num }}阅读</span>
+				<span class="time">{{ item.date }}</span>
+				<button class="delete">×</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/csdn.js"></script>
+</body>
+</html>

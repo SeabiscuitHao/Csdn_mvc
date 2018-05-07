@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文章列表</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/user.css">
+</head>
+<body>
+	<div id="user">
+		<div class="header">
+			<img src="./images/csdn.png">分类列表
+			<a class="user" href="#" ref="user"><img src="./images/zoro.jpg"></a>
+		</div>
+		<div class="container">
+			<div class="user-list">
+				<a href="./csdn_blog.html" v-for="item in blogList">{{ item.title }}</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/csdn_user.js"></script>
+</body>
+</html>

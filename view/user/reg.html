@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎注册</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo STATIC_URL; ?>/css/login.css">
+</head>
+<body>
+	<div id="regi">
+		<div class="login-box clearfix">
+			<form action="index.php?c=user&a=doReg" method="post">
+				<p>账号注册</p>
+				<div class="input-text">
+					<input name="phone" type="text" placeholder="请输入电话号">
+					<input name="username" type="text" placeholder="用户名">
+					<input name="password" type="password" placeholder="密码">
+				</div>
+				<input type="submit" class="regi-btn" value="注 册">
+				<!-- <a class="regi-btn">注 册</a> -->
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="<?php echo STATIC_URL; ?>/js/regi.js"></script>
+</body>
+</html>
